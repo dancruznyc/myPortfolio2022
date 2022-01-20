@@ -1,0 +1,38 @@
+.footer {
+  height: 50rem;
+  width: 100vw;
+  background-color: var(--color-primary-dark);
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+  clip-path: ellipse(82% 31% at 42% 81%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.footer-spacer {
+  height: 25rem;
+  width: 100%;
+}
+
+.footer-content {
+  font-size: 3rem;
+}
+
+.footer-icons__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+
+.footer-icons {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.footer-copy {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,76 @@
+.header {
+  position: relative;
+  height: 30rem;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-left {
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  background-color: var(--color-primary-m);
+  clip-path: polygon(0 0, 0 30%, 100% 0);
+  clip-path: polygon(0 100%, 85% 0, 0 0);
+}
+
+.header-right {
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  background-color: var(--color-tertiary-m);
+  clip-path: polygon(0 0, 100% 30%, 100% 0);
+  clip-path: polygon(100% 100%, 100% 0, 15% 0);
+}
+
+.header-logo__container {
+  position: absolute;
+  top: 5rem;
+  left: 2rem;
+  height: 7rem;
+  width: 7rem;
+}
+
+.header-logo__container:hover {
+  animation: spin 2s ease-in-out;
+}
+
+.header-logo__container img {
+  height: 100%;
+  cursor: pointer;
+}
+
+.rubberband:hover {
+  animation: rubberband 2s ease-in-out;
+  color: var(--color-secondary);
+  transition: all 0.5s ease-in;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(1080deg);
+  }
+}
+
+@keyframes rubberband {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scaleX(1.25) scaleY(0.75);
+  }
+  40% {
+    transform: scaleX(0.75) scaleY(1.25);
+  }
+  60% {
+    transform: scaleX(1.15) scaleY(0.85);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

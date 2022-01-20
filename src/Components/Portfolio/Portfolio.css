@@ -1,0 +1,12 @@
+.portfolio-img {
+  transform: translateX(3rem);
+}
+
+.project-img__container {
+  width: 75%;
+  margin-top: 3rem;
+}
+
+.project-img__container img {
+  width: 100%;
+}

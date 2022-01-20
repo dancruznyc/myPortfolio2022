@@ -1,0 +1,23 @@
+.section-header {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-family: "Permanent Marker";
+  font-size: 3.55rem;
+  color: var(--color-primary-dark);
+  animation: 1.5s ease-in 0s 1 slideInFromTop;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
