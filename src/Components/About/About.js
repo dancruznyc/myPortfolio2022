@@ -2,14 +2,14 @@ import React from "react";
 import "./About.css";
 import picture17 from "../../Assets/Daniel-17.png";
 import PhotoCluster from "../PhotoCluster/PhotoCluster";
-import art1 from "../../Assets/art1.jpeg";
-import art2 from "../../Assets/art2.jpeg";
+import art1 from "../../Assets/art1.jpg";
+import art2 from "../../Assets/art2.jpg";
 import art3 from "../../Assets/art3.jpg";
-import jewelry1 from "../../Assets/jewelry1.jpeg";
-import jewelry2 from "../../Assets/jewelry2.jpeg";
-import jewelry3 from "../../Assets/jewelry3.jpeg";
-import bible from "../../Assets/bible.jpeg";
-import cornsnake from "../../Assets/orchidcornsnake.jpeg";
+import jewelry1 from "../../Assets/jewelry1.jpg";
+import jewelry2 from "../../Assets/jewelry2.jpg";
+import jewelry3 from "../../Assets/jewelry3.jpg";
+import bible from "../../Assets/bible.jpg";
+import cornsnake from "../../Assets/orchidcornsnake.jpg";
 import chessset from "../../Assets/chessset.png";
 
 export default function About() {
