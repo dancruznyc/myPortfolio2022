@@ -44,6 +44,7 @@ textarea {
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 0.75rem;
+  font-family: monospace;
 }
 
 input[type="text"],
