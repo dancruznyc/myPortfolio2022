@@ -10,3 +10,10 @@
 .project-img__container img {
   width: 100%;
 }
+
+@media all and (max-width: 600px) {
+  .project-img__container {
+    width: 90%;
+    margin-top: 1.5rem;
+  }
+}
