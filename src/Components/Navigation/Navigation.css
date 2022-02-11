@@ -99,3 +99,9 @@
 .header__nav-links:hover {
   color: var(--color-tertiary);
 }
+
+@media all and (max-width: 600px) {
+  .header__hamburger-btn-background {
+    right: 1rem;
+  }
+}
