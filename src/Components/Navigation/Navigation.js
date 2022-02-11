@@ -71,9 +71,14 @@ export default function Navigation() {
           >
             Contact
           </Link>
-          <Link className="header__nav-links" to="/">
+          <a
+            href="https://docs.google.com/document/d/1KnDuugseRE6On_2UUU56vExMIA6gxL0oqsv0CQ2aUzA/edit?usp=sharing"
+            target="_blank"
+            className="header__nav-links"
+            to="/"
+          >
             Resume
-          </Link>
+          </a>
         </div>
       </nav>
     </>

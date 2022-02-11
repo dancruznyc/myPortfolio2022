@@ -44,7 +44,13 @@ export default function About() {
               2021 when I began studying with Nebula Academy a coding bootcamp
               on Long Island.
             </p>
-            <a className="blurb-link">&rarr; resume</a>
+            <a
+              href="https://docs.google.com/document/d/1KnDuugseRE6On_2UUU56vExMIA6gxL0oqsv0CQ2aUzA/edit?usp=sharing"
+              className="blurb-link"
+              target="_blank"
+            >
+              &rarr; resume
+            </a>
           </div>
         </div>
         <div className="blurb-container blurb-margin">

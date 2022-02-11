@@ -28,13 +28,30 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-      <div className="blurb-container ">
+      <div className="blurb-container blurb-margin">
         <div className="blurb-content">
           <h2 className="blurb-title">Multi Calculator</h2>
           <p className="blurb-par">
             Calculator with three different modes. Basic calculator, retirement
             and mortgage. Vanilla HTML, CSS and Javascript. Focus on sleek,
             three dimensional design.
+          </p>
+          <div className="project-img__container">
+            <a
+              href="https://dancruznyc.github.io/multicalculator/"
+              target="_blank"
+            >
+              <img src={calcProd}></img>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="blurb-container ">
+        <div className="blurb-content">
+          <h2 className="blurb-title">Binge Worthy</h2>
+          <p className="blurb-par">
+            Mock streaming service using TMDB movie api. Programmed using React
+            JS.
           </p>
           <div className="project-img__container">
             <a
