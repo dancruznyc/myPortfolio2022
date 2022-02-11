@@ -31,7 +31,7 @@ export default function Contact() {
           <img src={picture17}></img>
         </div>
       </div>
-      <div className="blurb-container pad-side">
+      <div className="blurb-container form-container pad-side">
         <h2 className="blurb-title blurb-title--small">
           Thanks for Reaching Out!
         </h2>

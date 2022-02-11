@@ -1,7 +1,14 @@
-.form {
+/* .form {
   width: 30rem;
   margin: 0 auto;
   padding: 1.5rem 0;
+} */
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 form p {
@@ -29,8 +36,6 @@ form p {
 
 input[type="text"],
 input[type="email"],
-input[type="url"],
-input[type="password"],
 textarea {
   width: 40rem;
   line-height: 1.5rem;
@@ -44,13 +49,11 @@ textarea {
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 0.75rem;
-  font-family: monospace;
+  font-family: "Varela Round";
 }
 
 input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"] {
+input[type="email"] {
   height: 5rem;
   font-size: 3rem;
   line-height: 3rem;
@@ -67,8 +70,6 @@ textarea {
 
 input[type="text"]:focus,
 input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
 textarea:focus {
   outline: 0;
   border: none;
@@ -103,4 +104,24 @@ input[type="submit"]:hover {
 .pad-side {
   padding-left: 8.5rem;
   padding-right: 8.5rem;
+}
+
+@media all and (max-width: 700px) {
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 30rem;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+  }
+}
+
+@media all and (max-width: 600px) {
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 25rem;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+  }
 }
