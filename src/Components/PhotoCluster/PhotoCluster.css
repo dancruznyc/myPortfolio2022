@@ -64,4 +64,7 @@
     grid-template-rows: repeat(9, auto);
     /* align-self: center; */
   }
+  .photo-cluster__container {
+    margin-bottom: 5rem;
+  }
 }
