@@ -11,6 +11,9 @@ import jewelry3 from "../../Assets/jewelry3.jpg";
 import bible from "../../Assets/bible.jpg";
 import cornsnake from "../../Assets/orchidcornsnake.jpg";
 import chessset from "../../Assets/chessset.png";
+import devry from "../../Assets/queens-devry.jpg";
+import brooklyn from "../../Assets/atrain.jpg";
+import southJP from "../../Assets/sjamesport.jpg";
 
 export default function About() {
   return (
@@ -32,6 +35,7 @@ export default function About() {
             </p>
           </div>
         </div>
+        <PhotoCluster pic1={brooklyn} pic2={devry} pic3={southJP} />
         <div className="blurb-container blurb-margin">
           <div className="blurb-content">
             <h1 className="blurb-title">Coding Experience</h1>
@@ -40,6 +44,7 @@ export default function About() {
               2021 when I began studying with Nebula Academy a coding bootcamp
               on Long Island.
             </p>
+            <a className="blurb-link">&rarr; resume</a>
           </div>
         </div>
         <div className="blurb-container blurb-margin">

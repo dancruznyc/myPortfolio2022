@@ -18,6 +18,8 @@
   width: 30rem;
   transition: all 0.2s linear;
   cursor: pointer;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .main__pic-container:hover {
