@@ -4,6 +4,7 @@ import "./Portfolio.css";
 import picture10 from "../../Assets/Daniel-10.png";
 import matrixPoker from "../../Assets/matrixpokerpic.png";
 import calcProd from "../../Assets/mycalculator.png";
+import bingeworthy from "../../Assets/bingeworthy.png";
 
 export default function Portfolio() {
   return (
@@ -50,15 +51,15 @@ export default function Portfolio() {
         <div className="blurb-content">
           <h2 className="blurb-title">Binge Worthy</h2>
           <p className="blurb-par">
-            Mock streaming service using TMDB movie api. Programmed using React
-            JS.
+            Mock streaming service using The Movie Database api. Programmed
+            using React JS.
           </p>
           <div className="project-img__container">
             <a
               href="https://dancruznyc.github.io/multicalculator/"
               target="_blank"
             >
-              <img src={calcProd}></img>
+              <img src={bingeworthy}></img>
             </a>
           </div>
         </div>

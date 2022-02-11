@@ -23,7 +23,7 @@ export default function About() {
           <img src={picture17}></img>
         </div>
       </div>
-      <div>
+      <div className="about-me__content">
         <div className="blurb-container blurb-margin">
           <div className="blurb-content">
             <h2 className="blurb-title"> Personal</h2>
