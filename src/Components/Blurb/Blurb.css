@@ -88,3 +88,12 @@
     width: 40rem;
   }
 }
+
+@media all and (max-width: 450px) {
+  .blurb-container {
+    width: 30rem;
+  }
+  .blurb-par {
+    width: 28rem;
+  }
+}
