@@ -66,6 +66,9 @@
   .blurb-container {
     width: 52rem;
   }
+  .blurb-title {
+    font-size: 3.2rem;
+  }
   /* .blurb-par {
     width: 40rem;
   } */
@@ -75,6 +78,10 @@
   .blurb-container {
     width: 50rem;
   }
+
+  .blurb-title {
+    font-size: 3rem;
+  }
   .blurb-par {
     width: 40rem;
   }
@@ -83,6 +90,9 @@
 @media all and (max-width: 500px) {
   .blurb-container {
     width: 35rem;
+  }
+  .blurb-title {
+    font-size: 2.8rem;
   }
   .blurb-par {
     width: 40rem;
@@ -95,7 +105,7 @@
   }
 
   .blurb-title {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
   .blurb-par {
     width: 25rem;
