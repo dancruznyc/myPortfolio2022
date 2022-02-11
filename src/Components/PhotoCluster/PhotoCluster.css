@@ -56,4 +56,12 @@
   .main__pic-container {
     width: 20rem;
   }
+  .photo-cluster__grid {
+    margin: auto;
+    grid-area: right;
+    display: grid;
+    grid-template-columns: repeat(11, auto);
+    grid-template-rows: repeat(9, auto);
+    /* align-self: center; */
+  }
 }
