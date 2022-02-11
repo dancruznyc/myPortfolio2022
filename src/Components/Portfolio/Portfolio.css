@@ -13,7 +13,7 @@
 
 @media all and (max-width: 600px) {
   .project-img__container {
-    min-width: 90%;
+    width: 38rem;
     margin-top: 1.5rem;
   }
 }
