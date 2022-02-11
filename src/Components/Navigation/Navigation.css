@@ -102,6 +102,6 @@
 
 @media all and (max-width: 600px) {
   .header__hamburger-btn-background {
-    right: 1rem;
+    right: -1.5rem;
   }
 }
