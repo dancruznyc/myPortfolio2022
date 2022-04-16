@@ -125,3 +125,15 @@ input[type="submit"]:hover {
     line-height: 1.6rem;
   }
 }
+
+@media all and (max-width: 429px) {
+  .contact-title {
+    font-size: 2rem;
+  }
+}
+
+@media all and (max-width: 321px) {
+  .contact-spacer--small {
+    margin-bottom: 5rem;
+  }
+}

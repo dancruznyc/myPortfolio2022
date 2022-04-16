@@ -21,3 +21,15 @@
     opacity: 1;
   }
 }
+
+@media all and (max-width: 429px) {
+  .section-header {
+    font-size: 2rem;
+  }
+}
+
+@media all and (max-width: 321px) {
+  .section-header {
+    font-size: 1.8rem;
+  }
+}

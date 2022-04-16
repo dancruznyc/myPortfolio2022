@@ -26,13 +26,13 @@ export default function Contact() {
   }
   return (
     <section className="landing-page">
-      <div className="img-spacer">
+      <div className="img-spacer contact-spacer--small">
         <div className="img-container">
           <img src={picture17}></img>
         </div>
       </div>
       <div className="blurb-container form-container pad-side">
-        <h2 className="blurb-title blurb-title--small">
+        <h2 className="blurb-title blurb-title--small contact-title">
           Thanks for Reaching Out!
         </h2>
         <div className="blurb-content form">

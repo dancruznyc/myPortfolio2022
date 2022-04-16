@@ -105,3 +105,27 @@
     right: -1.5rem;
   }
 }
+
+@media all and (max-width: 443px) {
+  .header__nav-links {
+    font-size: 3.5rem;
+  }
+}
+
+@media all and (max-width: 387px) {
+  .header__nav-links {
+    font-size: 3.2rem;
+  }
+}
+
+@media all and (max-width: 357px) {
+  .header__nav-links {
+    font-size: 2.9rem;
+  }
+}
+
+@media all and (max-width: 323px) {
+  .header__nav-links {
+    font-size: 2.7rem;
+  }
+}

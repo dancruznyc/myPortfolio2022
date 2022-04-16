@@ -18,6 +18,10 @@ export default function SectionHeader() {
           path="/portfolio"
           element={<h1 className="rubberband">My Portfolio</h1>}
         />
+        <Route
+          path="/contact"
+          element={<h1 className="rubberband">Contact</h1>}
+        />
       </Routes>
     </div>
   );

@@ -17,3 +17,10 @@
     margin-top: 1.5rem;
   }
 }
+
+@media all and (max-width: 429px) {
+  .project-img__container {
+    width: 90%;
+    margin-top: 1.5rem;
+  }
+}
