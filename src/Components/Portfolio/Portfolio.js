@@ -55,10 +55,7 @@ export default function Portfolio() {
             using React JS.
           </p>
           <div className="project-img__container">
-            <a
-              href="https://dancruznyc.github.io/multicalculator/"
-              target="_blank"
-            >
+            <a href="https://dancruznyc.github.io/bingeworthy/" target="_blank">
               <img src={bingeworthy}></img>
             </a>
           </div>
