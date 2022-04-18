@@ -61,7 +61,7 @@
 }
 
 .header__nav-container {
-  position: absolute;
+  /* position: absolute; */
   /* height: 100vh;
     position: fixed;
     top: 0;
