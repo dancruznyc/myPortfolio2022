@@ -39,11 +39,25 @@
   top: 4.2rem;
 }
 
-.header__hamburger-btn:hover .header__hamburger-icon-top {
+/* .header__hamburger-btn:hover .header__hamburger-icon-top {
   top: 2rem;
 }
 .header__hamburger-btn:hover .header__hamburger-icon-bottom {
   top: 4.4rem;
+} */
+
+.header__hamburger-icon-top--active {
+  transform: rotate(135deg);
+  top: 3.2rem;
+}
+
+.header__hamburger-icon--active {
+  opacity: 0;
+}
+
+.header__hamburger-icon-bottom--active {
+  transform: rotate(-135deg);
+  top: 3.2rem;
 }
 
 .header__nav-container {
@@ -86,6 +100,17 @@
   font-family: "Permanent Marker", sans-serif;
   transition: all 0.3s linear;
   text-transform: uppercase;
+}
+
+.header__nav-background--open {
+  transform: scale(195);
+  opacity: 1;
+}
+
+.header__nav-list--open {
+  left: 50%;
+  visibility: visible;
+  opacity: 1;
 }
 
 .header__nav-links {
