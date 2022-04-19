@@ -33,6 +33,13 @@
 }
 
 .footer-copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 1rem;
   font-size: 1.5rem;
+}
+
+.footer-logo {
+  width: 8%;
 }

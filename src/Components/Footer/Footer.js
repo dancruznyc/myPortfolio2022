@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { FaGithub, FaTwitter } from "react-icons/fa";
 import { SiLinkedin } from "react-icons/si";
+import logo from "../../Assets/cruz_logo-min.png";
 
 export default function Footer() {
   return (
@@ -18,7 +19,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-copy">
-        Website | Logo &copy; Dan Cruz Studio 2022
+        www.dancruzstudio.com | <img src={logo} className="footer-logo" />{" "}
+        &copy; Dan Cruz Studio 2022
       </div>
     </section>
   );
