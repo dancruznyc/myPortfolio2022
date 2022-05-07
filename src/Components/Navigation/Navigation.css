@@ -6,9 +6,7 @@
   cursor: pointer;
   user-select: none;
   box-shadow: inset rgba(138, 221, 203, 0.9) 0 0 20px;
-  position: relative;
   z-index: 20;
-  margin-right: 3rem;
   position: fixed;
   top: 5rem;
   right: 2rem;
@@ -86,7 +84,7 @@
 }
 .header__nav-list {
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 0;
   transform: translate(-50%, -50%);
@@ -126,9 +124,6 @@
 }
 
 @media all and (max-width: 600px) {
-  .header__hamburger-btn-background {
-    right: -1.5rem;
-  }
 }
 
 @media all and (max-width: 443px) {
