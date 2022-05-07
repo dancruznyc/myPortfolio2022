@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Navigation.css";
-import { Link } from "react-router-dom";
 import NavigationMenu from "./NavigationMenu";
 
 export default function Navigation() {
