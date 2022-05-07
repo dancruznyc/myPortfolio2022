@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./Navigation.css";
-import NavigationMenu from "./NavigationMenu";
 
-export default function Navigation() {
-  const [showNavigation, setShowNavigation] = useState(false);
-
+export default function Navigation({
+  showNavigation,
+  setShowNavigation,
+  navControl,
+}) {
   const modalBackgroundCSS = [
     "header__nav-background",
     showNavigation ? "header__nav-background--open" : "",
@@ -23,11 +24,6 @@ export default function Navigation() {
     showNavigation ? "header__hamburger-icon-bottom--active" : "",
   ];
 
-  function navControl() {
-    if (!showNavigation) {
-      setShowNavigation(true);
-    } else setShowNavigation(false);
-  }
   return (
     <>
       <div className={modalBackgroundCSS.join(" ")}>&nbsp;</div>
@@ -40,11 +36,6 @@ export default function Navigation() {
           </div>
         </div>
       </div>
-      <NavigationMenu
-        showNavigation={showNavigation}
-        setShowNavigation={setShowNavigation}
-        navControl={navControl}
-      />
     </>
   );
 }

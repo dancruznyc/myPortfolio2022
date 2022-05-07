@@ -73,7 +73,7 @@
 .header__nav-background {
   height: 7rem;
   width: 7rem;
-  position: absolute;
+  position: fixed;
   border-radius: 50%;
   top: 3rem;
   right: 3rem;
