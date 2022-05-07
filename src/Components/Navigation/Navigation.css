@@ -58,13 +58,14 @@
   top: 3.2rem;
 }
 
-/* .header__nav-container { */
-/* position: absolute; */
-/* height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0; */
-/* z-index: 1500; */
+/* .header__nav-container {
+  /* position: absolute; */
+
+/* position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: 1500; */
 /* opacity: 0;
     width: 0;
     transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
@@ -84,7 +85,7 @@
 }
 .header__nav-list {
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 0;
   transform: translate(-50%, -50%);
