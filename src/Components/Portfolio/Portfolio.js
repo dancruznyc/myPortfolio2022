@@ -5,6 +5,7 @@ import picture10 from "../../Assets/Daniel-10.png";
 import matrixPoker from "../../Assets/matrixpokerpic.png";
 import calcProd from "../../Assets/mycalculator.png";
 import bingeworthy from "../../Assets/bingeworthy.png";
+import mixologyBuddy from "../../Assets/mixologyScreenShot.png";
 
 export default function Portfolio() {
   return (
@@ -25,6 +26,21 @@ export default function Portfolio() {
           <div className="project-img__container">
             <a href="https://dancruznyc.github.io/matrixpoker/" target="_blank">
               <img src={matrixPoker}></img>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="blurb-container blurb-margin">
+        <div className="blurb-content">
+          <h2 className="blurb-title">Mixology Buddy</h2>
+          <p className="blurb-par">
+            Home bartender app that makes finding drinks to entertain guests a
+            breeze. Utilizing an API for drink recipes and Reactjs for the front
+            end.
+          </p>
+          <div className="project-img__container">
+            <a href="https://www.mixologybuddy.com" target="_blank">
+              <img src={mixologyBuddy}></img>
             </a>
           </div>
         </div>
