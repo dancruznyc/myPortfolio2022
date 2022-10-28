@@ -35,8 +35,8 @@ export default function Portfolio() {
           <h2 className="blurb-title">Mixology Buddy</h2>
           <p className="blurb-par">
             Home bartender app that makes finding drinks to entertain guests a
-            breeze. Utilizing an API for drink recipes and Reactjs for the front
-            end.
+            breeze. Create your virtual bar and get curated drink recipes!
+            Utilizing an API for drink recipes and Reactjs for the front end.
           </p>
           <div className="project-img__container">
             <a href="https://www.mixologybuddy.com" target="_blank">
